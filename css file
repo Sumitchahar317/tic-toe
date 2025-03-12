@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(90, 139, 139);
+   
+    text-align: center;
+    
+}
+
+
+.container{ 
+  height :70vh ;   /*70 percentage of page is reserved for our container */
+  
+  display: flex;                /* to set the boxes at the centre of the webpage */
+  justify-content: center ;
+  align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+
+    display :flex;    /* for alingining the boxes properly */
+    flex-wrap: wrap;  
+    gap : 1.5vmin;  /*provinding gap between boxes */
+}
+.box{
+    height: 18vmin ;  /* height and width of boxes */
+    width :18vmin ;
+
+    border-radius: 15% ; /* to chane the boxes from square type to some circular */
+    border : none ; 
+    font-size: 6vmin;
+    color: rgb(170, 45, 45);
+    background-color: rgb(77, 72, 72);
+   
+}
+
+#reset-btn{
+    margin-top: 5vmin;
+    color: whitesmoke; 
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 15%;
+    background-color: rgb(10, 10, 10);
+    font-size: 2vmin; 
+    border :none ;
+   
+
+}
+
+.win-cont{
+    margin-bottom: 20vmin;
+
+}
+
+#winplayer{
+  font-size: 5vmin;
+  color :yellow;
+}
+
+#restart-btn{
+    margin-top: 1vmin;
+    color: whitesmoke; 
+    /* height: 5vmin;
+    width: 15vmin; */
+    border-radius: 15%;
+    background-color: rgb(10, 10, 10);
+    font-size: 4vmin; 
+    border :none ;
+}
+
+.hide{
+    display: none ;
+}
